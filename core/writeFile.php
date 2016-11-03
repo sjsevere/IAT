@@ -2,7 +2,7 @@
 session_start();
 $base_dir = realpath(dirname(__FILE__));
 
-$folder_dir = "../output/";
+$folder_dir = "https://github.com/sjsevere/IAT/blob/master/templates/Partisanship/output/";
 
 $sub = isset( $_REQUEST['subject'] ) ? $_REQUEST['subject'] : 'unknown2' ;
 $src = isset( $_REQUEST['src'] ) ? $_REQUEST['src'] : 'HUH' ;
